@@ -1,0 +1,126 @@
+/* EXPORTS */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:400,700&display=swap");
+
+/* VARIABILE */
+
+:root {
+    --main-bg-color: #17A2B8;
+}
+
+/* GENERAL */
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+    /* text boxex */
+.text{
+    width: 20rem;
+    text-align: left;
+}
+
+/* INDEX PAGE */
+
+/* NAVBAR */
+
+.navbar{
+    padding: .5rem  8%;
+}
+
+nav a.navbar-brand{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif; 
+}
+
+.btn-info{
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand{
+    color: var(--main-bg-color);
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+/* SECTION 1 */
+
+#section1{
+    background: url("../img/Background.png");
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+    border: 0;
+    width: 35rem;
+    margin: 1rem;
+}
+.card-body{
+    padding: 4.5rem 4.5rem 2.5rem 4.5rem;
+}
+
+/* SECTION 2 AND 4 */
+
+#section24{
+    margin: 5rem 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* SECTION 6 AND 8 */
+
+#section68{
+    margin: 5rem 8%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#section68 #adultShow img{
+    margin: 1rem;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: var(--main-bg-color);
+    padding: 1rem 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+footer #socialMedia{
+    width: 8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
