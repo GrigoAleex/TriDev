@@ -143,3 +143,25 @@ footer #socialMedia{
     align-items: center;
     text-align: center;
 }
+
+/* LOGIN */
+
+/* FORM */
+
+#container{
+    background: url('../img/login.png');
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+    background-color: #fff;
+    width: 30rem;
+    padding: 2rem;
+    margin: auto 0;
+}
